@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17D308C92C63FB47B607DDD5 /* Pods_firebase_ml_ocrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA64A36F72CDCA8704BE03C1 /* Pods_firebase_ml_ocrTests.framework */; };
+		8FADBAE2CFD3E506DBBF498F /* Pods_firebase_ml_ocr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B814581682200DDFEB6D3F7 /* Pods_firebase_ml_ocr.framework */; };
+		BCEAF022F13AC5538D1755DC /* Pods_firebase_ml_ocr_firebase_ml_ocrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A40164ADFC94609D887F7D /* Pods_firebase_ml_ocr_firebase_ml_ocrUITests.framework */; };
+		E31EE45F258E3EF7000D3515 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E31EE45E258E3EF7000D3515 /* GoogleService-Info.plist */; };
 		E3BB2D7F258E3C3900E7C007 /* firebase_ml_ocrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB2D7E258E3C3900E7C007 /* firebase_ml_ocrApp.swift */; };
 		E3BB2D81258E3C3900E7C007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB2D80258E3C3900E7C007 /* ContentView.swift */; };
 		E3BB2D83258E3C3900E7C007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BB2D82258E3C3900E7C007 /* Assets.xcassets */; };
@@ -33,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B814581682200DDFEB6D3F7 /* Pods_firebase_ml_ocr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_ml_ocr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		215C813DFD4CD932F6DCBB2F /* Pods-firebase-ml-ocrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-ml-ocrTests.release.xcconfig"; path = "Target Support Files/Pods-firebase-ml-ocrTests/Pods-firebase-ml-ocrTests.release.xcconfig"; sourceTree = "<group>"; };
+		280C508C63C3B5B9EB114FFC /* Pods-firebase-ml-ocr-firebase-ml-ocrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-ml-ocr-firebase-ml-ocrUITests.debug.xcconfig"; path = "Target Support Files/Pods-firebase-ml-ocr-firebase-ml-ocrUITests/Pods-firebase-ml-ocr-firebase-ml-ocrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52CD0538AB1A9A9978AE98FB /* Pods-firebase-ml-ocr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-ml-ocr.release.xcconfig"; path = "Target Support Files/Pods-firebase-ml-ocr/Pods-firebase-ml-ocr.release.xcconfig"; sourceTree = "<group>"; };
+		53A74E2392EC2C9ED2141A02 /* Pods-firebase-ml-ocrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-ml-ocrTests.debug.xcconfig"; path = "Target Support Files/Pods-firebase-ml-ocrTests/Pods-firebase-ml-ocrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D57C1154D6C75D668F341D6 /* Pods-firebase-ml-ocr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-ml-ocr.debug.xcconfig"; path = "Target Support Files/Pods-firebase-ml-ocr/Pods-firebase-ml-ocr.debug.xcconfig"; sourceTree = "<group>"; };
+		95A40164ADFC94609D887F7D /* Pods_firebase_ml_ocr_firebase_ml_ocrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_ml_ocr_firebase_ml_ocrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31EE45E258E3EF7000D3515 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3BB2D7B258E3C3900E7C007 /* firebase-ml-ocr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase-ml-ocr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BB2D7E258E3C3900E7C007 /* firebase_ml_ocrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase_ml_ocrApp.swift; sourceTree = "<group>"; };
 		E3BB2D80258E3C3900E7C007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,8 @@
 		E3BB2D97258E3C3900E7C007 /* firebase-ml-ocrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firebase-ml-ocrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BB2D9B258E3C3900E7C007 /* firebase_ml_ocrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebase_ml_ocrUITests.swift; sourceTree = "<group>"; };
 		E3BB2D9D258E3C3900E7C007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA64A36F72CDCA8704BE03C1 /* Pods_firebase_ml_ocrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_ml_ocrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9206CFFC4B4CC8C52E447BD /* Pods-firebase-ml-ocr-firebase-ml-ocrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase-ml-ocr-firebase-ml-ocrUITests.release.xcconfig"; path = "Target Support Files/Pods-firebase-ml-ocr-firebase-ml-ocrUITests/Pods-firebase-ml-ocr-firebase-ml-ocrUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FADBAE2CFD3E506DBBF498F /* Pods_firebase_ml_ocr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D308C92C63FB47B607DDD5 /* Pods_firebase_ml_ocrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCEAF022F13AC5538D1755DC /* Pods_firebase_ml_ocr_firebase_ml_ocrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00429075A58F508E431D9B6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D57C1154D6C75D668F341D6 /* Pods-firebase-ml-ocr.debug.xcconfig */,
+				52CD0538AB1A9A9978AE98FB /* Pods-firebase-ml-ocr.release.xcconfig */,
+				280C508C63C3B5B9EB114FFC /* Pods-firebase-ml-ocr-firebase-ml-ocrUITests.debug.xcconfig */,
+				F9206CFFC4B4CC8C52E447BD /* Pods-firebase-ml-ocr-firebase-ml-ocrUITests.release.xcconfig */,
+				53A74E2392EC2C9ED2141A02 /* Pods-firebase-ml-ocrTests.debug.xcconfig */,
+				215C813DFD4CD932F6DCBB2F /* Pods-firebase-ml-ocrTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54073ABFCE15CBB5BFF7AE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B814581682200DDFEB6D3F7 /* Pods_firebase_ml_ocr.framework */,
+				95A40164ADFC94609D887F7D /* Pods_firebase_ml_ocr_firebase_ml_ocrUITests.framework */,
+				EA64A36F72CDCA8704BE03C1 /* Pods_firebase_ml_ocrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3BB2D72258E3C3900E7C007 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +119,8 @@
 				E3BB2D8F258E3C3900E7C007 /* firebase-ml-ocrTests */,
 				E3BB2D9A258E3C3900E7C007 /* firebase-ml-ocrUITests */,
 				E3BB2D7C258E3C3900E7C007 /* Products */,
+				00429075A58F508E431D9B6B /* Pods */,
+				54073ABFCE15CBB5BFF7AE76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +137,7 @@
 		E3BB2D7D258E3C3900E7C007 /* firebase-ml-ocr */ = {
 			isa = PBXGroup;
 			children = (
+				E31EE45E258E3EF7000D3515 /* GoogleService-Info.plist */,
 				E3BB2D7E258E3C3900E7C007 /* firebase_ml_ocrApp.swift */,
 				E3BB2D80258E3C3900E7C007 /* ContentView.swift */,
 				E3BB2D82258E3C3900E7C007 /* Assets.xcassets */,
@@ -137,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3BB2DA0258E3C3900E7C007 /* Build configuration list for PBXNativeTarget "firebase-ml-ocr" */;
 			buildPhases = (
+				5D83826EE0A4988D594B5BB6 /* [CP] Check Pods Manifest.lock */,
 				E3BB2D77258E3C3900E7C007 /* Sources */,
 				E3BB2D78258E3C3900E7C007 /* Frameworks */,
 				E3BB2D79258E3C3900E7C007 /* Resources */,
+				E6A05E9384BB98D4268CF280 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3BB2DA3258E3C3900E7C007 /* Build configuration list for PBXNativeTarget "firebase-ml-ocrTests" */;
 			buildPhases = (
+				C1C3FD6BD58FDE4A1CA5FCC6 /* [CP] Check Pods Manifest.lock */,
 				E3BB2D88258E3C3900E7C007 /* Sources */,
 				E3BB2D89258E3C3900E7C007 /* Frameworks */,
 				E3BB2D8A258E3C3900E7C007 /* Resources */,
@@ -172,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3BB2DA6258E3C3900E7C007 /* Build configuration list for PBXNativeTarget "firebase-ml-ocrUITests" */;
 			buildPhases = (
+				588E5DF631507628481929A5 /* [CP] Check Pods Manifest.lock */,
 				E3BB2D93258E3C3900E7C007 /* Sources */,
 				E3BB2D94258E3C3900E7C007 /* Frameworks */,
 				E3BB2D95258E3C3900E7C007 /* Resources */,
+				CC8404CF2E5F5BC623894154 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +283,7 @@
 			files = (
 				E3BB2D86258E3C3900E7C007 /* Preview Assets.xcassets in Resources */,
 				E3BB2D83258E3C3900E7C007 /* Assets.xcassets in Resources */,
+				E31EE45F258E3EF7000D3515 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		588E5DF631507628481929A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-ml-ocr-firebase-ml-ocrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D83826EE0A4988D594B5BB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-ml-ocr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C3FD6BD58FDE4A1CA5FCC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase-ml-ocrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8404CF2E5F5BC623894154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase-ml-ocr-firebase-ml-ocrUITests/Pods-firebase-ml-ocr-firebase-ml-ocrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase-ml-ocr-firebase-ml-ocrUITests/Pods-firebase-ml-ocr-firebase-ml-ocrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase-ml-ocr-firebase-ml-ocrUITests/Pods-firebase-ml-ocr-firebase-ml-ocrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A05E9384BB98D4268CF280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase-ml-ocr/Pods-firebase-ml-ocr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase-ml-ocr/Pods-firebase-ml-ocr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase-ml-ocr/Pods-firebase-ml-ocr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3BB2D77258E3C3900E7C007 /* Sources */ = {
@@ -414,6 +566,7 @@
 		};
 		E3BB2DA1258E3C3900E7C007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D57C1154D6C75D668F341D6 /* Pods-firebase-ml-ocr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +589,7 @@
 		};
 		E3BB2DA2258E3C3900E7C007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CD0538AB1A9A9978AE98FB /* Pods-firebase-ml-ocr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +612,7 @@
 		};
 		E3BB2DA4258E3C3900E7C007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A74E2392EC2C9ED2141A02 /* Pods-firebase-ml-ocrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +635,7 @@
 		};
 		E3BB2DA5258E3C3900E7C007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215C813DFD4CD932F6DCBB2F /* Pods-firebase-ml-ocrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +658,7 @@
 		};
 		E3BB2DA7258E3C3900E7C007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280C508C63C3B5B9EB114FFC /* Pods-firebase-ml-ocr-firebase-ml-ocrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +679,7 @@
 		};
 		E3BB2DA8258E3C3900E7C007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9206CFFC4B4CC8C52E447BD /* Pods-firebase-ml-ocr-firebase-ml-ocrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
