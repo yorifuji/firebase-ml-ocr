@@ -7,6 +7,7 @@ target 'firebase-ml-ocr' do
 
   # Pods for firebase-ml-ocr
   pod 'Firebase/Analytics'
+  pod 'Firebase/MLVision'
 
   target 'firebase-ml-ocrTests' do
     inherit! :search_paths
